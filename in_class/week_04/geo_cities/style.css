@@ -1,0 +1,50 @@
+h1{
+    color: white;
+    text-shadow: 1px 1px 10px black;
+    font-family:'Helvetica';
+    font-size: 60px;
+    text-align: center;
+}
+p{
+    text-shadow: 1px 1px 0px black;
+    color: red;
+    font-family: comic sans ms;
+    font-size: 40px;
+    text-align: center;
+}
+.bottom{
+    text-shadow: 1px 1px 6px black;
+    margin-top: 600px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: red;
+}
+.pasta{
+    position: relative;
+    left: 60px;
+    bottom: 700px;
+}
+.bread{
+    position: relative;
+    left: 800px;
+    bottom: 700px;
+}
+.ball{
+    position: fixed;
+    left: 50px;
+    bottom: 20px;
+}
+.skele{
+    position: fixed;
+    right: 50px;
+    bottom: 20px;
+}
+.cash{
+    position: relative;
+    left: 680px;
+    bottom: 975px;
+}
+.cash2{
+    position: relative;
+    left: -630px;
+    bottom: 975px;
+}
