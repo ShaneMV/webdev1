@@ -1,0 +1,85 @@
+.wrapper{
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to bottom right, rgb(255, 180, 180), rgb(255, 255, 147));
+
+}
+.flex-container{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-image: linear-gradient(to bottom right, rgb(255, 197, 121), rgb(255, 255, 93));
+    max-width: 230px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    Align-items: center;
+    border-radius: 10px;
+
+}
+
+.box-blue{
+    font-family: Arial;
+    font-size: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 6vmin;
+    height: 6vmin;
+    margin: 1vmin;
+    border-radius: 10px;
+    background-image: linear-gradient(to bottom right, rgb(210, 171, 219), rgb(165, 123, 167));
+}
+.box-blue:hover{
+    box-shadow: 0 4px 8px 0 rgb(255, 255, 255), 0 6px 20px 0 rgb(255, 255, 255);
+}
+.box-red{
+    font-family: Arial;
+    font-size: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 6vmin;
+    height: 6vmin;
+    margin: 1vmin;
+    border-radius: 10px;
+    background-image: linear-gradient(to bottom right, rgb(255, 80, 80), rgb(255, 143, 148));
+}
+.box-red:hover{
+    box-shadow: 0 4px 8px 0 rgb(255, 255, 255), 0 6px 20px 0 rgb(255, 255, 255);
+}
+.box-green{
+    font-family: Arial;
+    font-size: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 6vmin;
+    height: 6vmin;
+    margin: 1vmin;
+    border-radius: 10px;
+    background-image: linear-gradient(to bottom right, rgb(138, 255, 177), rgb(134, 223, 112));
+}
+.box-green:hover{
+    box-shadow: 0 4px 8px 0 rgb(255, 255, 255), 0 6px 20px 0 rgb(255, 255, 255);
+}
+.box-orange{
+    font-family: Arial;
+    font-size: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 6vmin;
+    height: 6vmin;
+    margin: 1vmin;
+    border-radius: 10px;
+    background-image: linear-gradient(to bottom right, rgb(255, 151, 65), rgb(255, 128, 43));
+}
+.box-orange:hover{
+    box-shadow: 0 4px 8px 0 rgb(255, 255, 255), 0 6px 20px 0 rgb(255, 255, 255);
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}

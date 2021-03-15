@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.body{
+    font-family: arial;
+
+}
+.box{
+    width: 20vmin;
+    height: 20vmin;
+    border: 2px solid green;
+    margin: 1em;
+
+
+}
+section{
+    margin: 1em 0;
+    background: #ddd;
+    padding: 1em;
+
+}
+.relative-demo{
+position:relative;
+border: 2px solid red;
+width: 22vmin;
+height: 22vmin;
+top: 50vw;
+left: 50vw;
+}
+
+.parent{
+background: coral;
+width: 50%;
+height: 300px;
+margin: 1em;
+position: relative;
+}
+.child{
+background: blue;
+position: absolute;
+left: 10px;
+width: 25%;
+height: 25%;
+}
+.grandchild{
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    background: lightgreen;
+}
+.box1{
+width: 50%;
+height: 150px;
+margin: 1em;
+position: relative;
+background: rgb(172, 172, 172);
+}
+.box2{
+    width: 47%;
+    height: 25px;
+    margin: 1em;
+    bottom: 572px;
+    position: absolute;
+    background: grey;
+}
+.box3{
+    width: 5%;
+    height: 25px;
+    margin: 1em;
+    bottom: 573px;
+    left:269px;
+    position: absolute;
+    background: red;
+}
+.x{
+    margin: 1em;
+    bottom: 562px;
+    left:266px;
+    position: absolute;
+}
