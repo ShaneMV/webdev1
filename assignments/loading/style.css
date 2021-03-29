@@ -1,0 +1,23 @@
+.header{
+    font-family: fantasy;
+    font-size: 70px;
+    color: rgb(159, 255, 159);
+    text-shadow: 5px 1px green;
+    
+}
+.header2{
+    font-family: fantasy;
+    font-size: 35px;
+    color: rgb(159, 255, 159);
+    text-shadow: 5px 1px green;
+    
+}
+.subhead{
+    font-family: monospace;
+    font-size: 20px;
+    color: rgb(159, 255, 159);
+    text-shadow: 1px 1px green;
+}
+.subhead:hover{
+    background-color: green;
+}

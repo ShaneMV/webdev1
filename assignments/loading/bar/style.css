@@ -1,0 +1,38 @@
+.box{
+    width: 800px;
+    height: 30px;
+    
+    background: white;
+    border-color: black;
+    border-width: 10px;
+    border-style: solid;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+
+
+}
+.load{
+    width: 800px;
+    height: 30px;
+    background: green;
+    animation-name: bounce;
+    animation-duration: 3s;
+}
+@keyframes bounce{
+    0%{
+        width: 0px;
+
+    }
+    100%{
+        width: 800px;
+    }
+
+}
+.text{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 50px;
+    padding-top: 50px;
+    padding-left: 25px;
+
+}
