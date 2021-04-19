@@ -1,0 +1,27 @@
+.grid-container{
+    background: lightpink;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 1rem;
+    justify-items: center;
+    align-items: center;
+
+}
+.grid-item{
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    background: red;
+    border: 2px solid black;
+    
+}
+.photo{
+    width: 100px;
+    height: 100px;
+}
+.top-text{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    align-items: center;
+    background-color: darkorchid;
+}
