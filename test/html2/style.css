@@ -1,0 +1,26 @@
+.head{
+    font-family:'Pangolin', cursive; 
+    text-align: center;
+    font-size: 40px;;
+}
+.subhead{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 24px;
+    
+}
+.subhead:hover{
+    box-shadow: 0 4px 8px 0 rgb(255, 0, 0), 0 6px 20px 0 rgb(255, 167, 167);
+}
+
+.wrapper{
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to bottom right, rgb(255, 93, 93), rgb(255, 147, 214));
+
+}
+.backgroundwrapper{
+color:coral;
+}
+
