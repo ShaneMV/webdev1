@@ -1,0 +1,36 @@
+.wrapper{
+    background-color: rgb(255, 255, 255);
+    width: 1500px;
+    height: 1000px;
+
+}
+.top{
+    text-align: center;
+    font-family: Oswald;
+    color: #00755F;
+    font-size: 70px;
+    padding-bottom: 0px;
+
+
+}
+.bottom{
+    text-align: center;
+    font-size: 30px;
+    font-family: Oswald;
+    color: #ADD9B2;
+}
+.link{
+    text-align: center;
+    font-size: 30px;
+    align-items: center;
+    font-family: Oswald;
+    color: #ADD9B2;
+}
+.boarder{
+    margin: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: #00755F;
+    text-align: center;
+    color: #ADD9B2;
+}
