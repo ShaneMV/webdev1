@@ -8,26 +8,50 @@
     background-color:rgb(255, 255, 255)
 }
 .header{
+    position: relative;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
-    font-size: 50px;
-    color:crimson;
-    text-shadow: 2px 2px 2px #000000;
+    font-size: 40px;
+    color:cadetblue;
+    text-shadow: 3px 3px 3px rgb(0, 25, 32);
+    margin-bottom: 5px;
+}
+.subhead{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 15px;
+    text-align: center;
+    margin-bottom: 5px;
+}
+.subox{
+    position: static;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: 5px;
+    max-width: 950px;
+    height: 50px;
+    background-color: cadetblue;
+    border: 8px solid rgb(0, 25, 32);
+    border-radius: 25px;
 }
 .button
 {
-    margin-left: 600px;
-    width: 250px;
-    height: 50px;
-    background-color: green;
-    border: 10px solid rgb(0, 65, 0);
+    position: static;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    max-width: 250px;
+    max-height: 50px;
+    background-color: cadetblue;
+    border: 8px solid rgb(0, 25, 32);
     border-radius: 25px;
 }
 .button-text{
     font-family: fantasy;
     font-size: 18px;
     text-align: center;
-    margin-top: 16px;
+    margin: auto;
 
 }
 .button :hover{
@@ -58,6 +82,7 @@
     }
 }
 .grid-item{
+    margin-top:50px;
     align-items: center;
     animation-name: pic;
     animation-duration: 1s;
@@ -78,8 +103,11 @@
 
 .slider-bar
 {
-    margin-left: 500px;
-    margin-bottom: 60px;
+    position: static;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
     width: 500px;
     height:8px;
     background-color: rgb(255, 255, 255);
@@ -103,9 +131,13 @@
 
 }
 .dot-young{
+    position: static;
+    margin-left: 20px;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
     animation-name: young;
     animation-duration: 2s;
-    margin-left: 20px;
     width: 30px;
     height: 30px;
     background-color: rgb(255, 255, 255);
@@ -113,9 +145,13 @@
     border-radius:25px
 }
 .dot-old{
+    position: static;
+    margin-left: 450px;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
     animation-name: old;
     animation-duration: 2s;
-    margin-left: 450px;
     width: 30px;
     height: 30px;
     background-color: rgb(255, 255, 255);
