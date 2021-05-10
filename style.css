@@ -11,7 +11,12 @@
 .subhead:hover{
     box-shadow: 0 4px 8px 0 rgb(255, 0, 0), 0 6px 20px 0 rgb(255, 167, 167);
 }
-
+.divider{
+    width:15px;
+    height: 15px;
+    background-color: black;
+    border-radius: 25px;
+}
 .wrapper{
     height: 500px;
     display: flex;
