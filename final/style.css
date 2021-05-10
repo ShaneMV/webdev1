@@ -1,0 +1,125 @@
+.body {
+    margin: 0;
+    padding: 0;
+}
+.website{
+    height:auto;
+    width:auto;
+    background-color:rgb(255, 255, 255)
+}
+.header{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-size: 50px;
+    color:crimson;
+    text-shadow: 2px 2px 2px #000000;
+}
+.button
+{
+    margin-left: 600px;
+    width: 250px;
+    height: 50px;
+    background-color: green;
+    border: 10px solid rgb(0, 65, 0);
+    border-radius: 25px;
+}
+.button-text{
+    font-family: fantasy;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 16px;
+
+}
+.button :hover{
+  color: white;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+.square{
+    width:180px;
+    height:180px;
+}
+.square2{
+    width:100px;
+    height:100px;
+    background-color: rgb(42, 165, 52);
+}
+@keyframes pic{
+    0% {
+        width: 180px; 
+        height: 180px;
+    }
+    50%{
+        width: 200px; 
+        height: 200px;
+    }
+    100% {
+        width: 180px; 
+        height: 180px;
+    }
+}
+.grid-item{
+    align-items: center;
+    animation-name: pic;
+    animation-duration: 1s;
+    width: 180px;
+    height: 180px;
+    border: 10px solid black;
+    border-radius: 25px;
+    
+}
+.grid-containter{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 3rem;
+    justify-items: center;
+    align-items: center;
+}
+
+.slider-bar
+{
+    margin-left: 500px;
+    margin-bottom: 60px;
+    width: 500px;
+    height:8px;
+    background-color: rgb(255, 255, 255);
+    border: 10px solid black;
+    border-radius: 10px;
+
+}
+@keyframes old{
+    0%{margin-left: 20px;}
+    100% {margin-left: 450px;}
+}
+@keyframes young{
+    0%{margin-left: 450px;}
+    100% {margin-left: 20px;}
+}
+.dot-text{
+    text-align: center;
+    margin-top: 38px;
+    font-size: 15px;
+    font-family: fantasy;
+
+}
+.dot-young{
+    animation-name: young;
+    animation-duration: 2s;
+    margin-left: 20px;
+    width: 30px;
+    height: 30px;
+    background-color: rgb(255, 255, 255);
+    border: 8px solid black;
+    border-radius:25px
+}
+.dot-old{
+    animation-name: old;
+    animation-duration: 2s;
+    margin-left: 450px;
+    width: 30px;
+    height: 30px;
+    background-color: rgb(255, 255, 255);
+    border: 8px solid black;
+    border-radius:25px
+    
+}
